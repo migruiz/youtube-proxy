@@ -15,5 +15,5 @@ RUN [ "cross-build-end" ]
 
 
 
-ENTRYPOINT ["/usr/sbin/squid"]
+ENTRYPOINT ["/usr/sbin/squid3","-NYCd","1"]
 
