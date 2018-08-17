@@ -9,7 +9,7 @@ apt-get install -yqq --no-install-recommends squid3  && rm -rf /var/lib/apt/list
 
 
 
-
+COPY  squid /etc/squid3
 
 RUN [ "cross-build-end" ]  
 
